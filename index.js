@@ -1,3 +1,8 @@
+if(window.innerWidth < 600){
+   alert("For best user Experience (and Using different weapons) Please switch to pc")
+   
+}
+
 const introMusic = new Audio("./music/introSong.mp3");
 const shootingSound = new Audio("./music/shoooting.mp3");
 const killEnemySound = new Audio("./music/killEnemy.mp3");
