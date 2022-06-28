@@ -15,6 +15,13 @@ introMusic.play()
 //canvas SetUp
 const canvas = document.createElement("canvas");
 
+const guide = document.querySelector(".guide")
+
+setTimeout(() => {
+  guide.style.display="none"
+}, 2000);
+
+
 document.querySelector(".myGame").appendChild(canvas);
 canvas.width = innerWidth;
 canvas.height = innerHeight;
